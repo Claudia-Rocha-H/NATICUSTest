@@ -7,6 +7,7 @@ Repositorio organizado para la entrega del proyecto de Modelos y Simulación de 
 - `data/raw/`: CSV original del dataset.
 - `data/processed/`: particiones generadas por el script de preparación.
 - `src/prepare_data.py`: carga, validación y split reproducible 70/30 estratificado.
+- `src/replay_update.py`: utilidades para simulación incremental, memoria replay y persistencia del vector.
 - `notebooks/01_preprocesamiento.ipynb`: preprocesamiento y generación de artefactos.
 - `notebooks/02_random_forest.ipynb`: base del modelo Random Forest.
 
